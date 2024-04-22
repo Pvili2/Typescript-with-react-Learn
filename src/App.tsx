@@ -1,11 +1,9 @@
-import Component from "./starter/05-challenge";
+import Component from "./starter/06-context";
 
 function App() {
   return (
     <main>
-      <Component type="basic" name="Lajos"/>
-      <Component type="advanced" name="Pista" email="pista@pista.com"/>
-
+      <Component />
     </main>
   );
 }
